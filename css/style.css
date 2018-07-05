@@ -4,6 +4,14 @@
     margin: 0px 0 0px;
 }
 
+.navbar-default .navbar-brand {
+    color: #FFFFFF;
+}
+
+.glyphicon {
+    color: 	#33EBB9
+}
+
 .profile {
     background-color: #FFFFFF;
     height: 300px;
@@ -11,19 +19,40 @@
 }
 
 ul li {
-    display: inline;
+    display: inline
 }
 
-.btn-save{
-    background-color: 	#33EBB9
+
+.btn-save {
+    background-color: 	#33EBB9;
+    display: block; 
+    margin: 0 auto  
+}
+
+
+,btn-retract {
+    display: block; 
+    margin: 0 auto
 }
 
 .profile {
     align-content: center
 }
 
-.thumbnail {
+/* .thumbnail {
     background-color:	#F1F1F1
+} */
+
+.bg {
+    background-color: #F1F1F1
+}
+
+.search-results {
+    border: 2px solid lightgray;
+    /* padding: 10px; */
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    margin: 15px
 }
 
 /* // Medium devices (tablets, 768px and up) */
