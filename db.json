@@ -1,0 +1,31 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Johnnie Walker"
+      }
+    ],
+    "jobs": [
+      {
+        "id": 1,
+        "title": "Restaurant Manager",
+        "company": "Gummies Muffin International",
+        "description": "Gummies muffin sesame snaps fruitcake. Cookie macaroon macaroon. Ice cream donut apple pie sweet muffin apple pie muffin pudding. Muffin caramels croissant. Jelly cotton candy candy canes gummies tootsie roll halvah. Tootsie roll topping croissant tiramisu topping jelly-o pudding. Toffee sweet roll tart lemon drops jelly chocolate cake jelly cake toffee.",
+        "hasApplication": false
+      },
+      {
+        "id": 2,
+        "title": "Head Chef",
+        "company": "Lemon Drops Amsterdam",
+        "description": "Lemon drops danish candy canes. Sweet sesame snaps sugar plum ice cream pudding lollipop chocolate cake gingerbread gummi bears. Donut dessert pastry carrot cake sugar plum. Dragée jujubes gummies. Sugar plum tart gummies croissant brownie ice cream bear claw. Carrot cake jelly beans danish bear claw. Cookie cake topping bear claw. Sweet chocolate croissant cake candy icing. Biscuit sweet roll dragée jujubes lemon drops jelly-o. Jelly beans pastry powder cake jelly liquorice.",
+        "hasApplication": false
+      },
+      {
+        "id": 3,
+        "title": "Food & Beverage Waiter",
+        "company": "Powder Cake Inc",
+        "description": "Powder cake cupcake sesame snaps. Cookie bear claw lollipop cupcake. Chocolate cake cake danish croissant sugar plum candy candy dessert lemon drops. Brownie wafer icing gummi bears carrot cake danish sweet. Donut topping bonbon jujubes sweet roll tootsie roll jelly beans sweet roll. Apple pie dessert sugar plum chocolate bar carrot cake candy canes. Chupa chups chocolate cake powder. Danish cookie halvah marzipan biscuit.",
+        "hasApplication": false
+      }
+    ]
+  }
