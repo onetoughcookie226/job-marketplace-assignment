@@ -1,0 +1,34 @@
+.navbar {
+    color: #FFFFFF;
+    background-color: 	#681A94;
+    margin: 0px 0 0px;
+}
+
+.profile {
+    background-color: #FFFFFF;
+    height: 300px;
+    border: gray solid 2px;
+}
+
+ul li {
+    display: inline;
+}
+
+.btn-save{
+    background-color: 	#33EBB9
+}
+
+.profile {
+    align-content: center
+}
+
+.thumbnail {
+    background-color:	#F1F1F1
+}
+
+/* // Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { 
+
+ } */
+
+ 
