@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>L1nda Jobs Overview</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>    
 <body>
@@ -13,9 +13,9 @@
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <ul class="navbar-header">
-                <li><span class="glyphicon glyphicon-briefcase"></span></li>
-                <li><span class="navbar-brand" href="#">Job Marketplace</span></li>
-                <li><span class="glyphicon glyphicon-user"></span></li> 
+                <li><a class="glyphicon glyphicon-briefcase href="jobs.html"></a></li>
+                <li><span class="navbar-brand" href="#">Job Marketplace</a></li>
+                <li><a class="glyphicon glyphicon-user" href="index.html"></a></li> 
             </ul>
         </div>
     </nav>
@@ -26,13 +26,25 @@
                 </div>
                 <div class="col-xs-10">
                     <div class="search-results">
-                        <div>
+                        <div id="my-div">
                             <h3>Resturant Manager</h3>
                             <small class="text-muted">Gummies muffin International</small>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. dolore eu fugiat nulla pariatu.
                             </p> 
-                            <button type="submit" class="btn btn-default btn-retract">Retract</button>
+                            <button type="submit" class="btn btn-default btn-retract" id="my-button">Retract</button>
+                        </div>
+                        <!-- <div id="my-div"></div> -->
+                    </div>
+
+                    <div class="search-results">
+                        <div>
+                            <h3>Head Chet</h3>
+                            <small class="text-muted">Lemon drops Amsterdam</small>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. dolore eu fugiat nulla pariatu.
+                            </p> 
+                            <button type="submit" class="btn btn-success btn-save">Apply</button>
 
                         </div>
                     </div>
@@ -53,7 +65,7 @@
                 </div>
         </div>
     </div>
-    <!-- <script type="text/javascript" src="./app.js"></script> -->
+    <script type="text/javascript" src="app.js"></script>
 </body>
 </html>
 
